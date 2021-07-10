@@ -1,0 +1,17 @@
+.find__icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+  padding-bottom: 30px;
+}
+
+.find__icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__icons__icon i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
