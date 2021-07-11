@@ -6,17 +6,21 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
-/* components*/
+@import "components/alt-screen-header.css";
 
+/* components*/
 @import "screens/Welcome-header.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 /* screens */
 @import "variable.css";
 
 body {
-  height: 300vh;
+  height: 100vh;
+  width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #2e363e;
